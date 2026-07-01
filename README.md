@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Job Board
 
-## Getting Started
+A modern AI Job Board web application built using Next.js, React, TypeScript, and Tailwind CSS. This project allows users to browse jobs, search by keywords, filter jobs based on location and job type, and view detailed job information through a responsive interface.
 
-First, run the development server:
+---
+
+## Project Overview
+
+The AI Job Board is designed to provide a clean and user-friendly platform for exploring job opportunities. The application focuses on reusable React components, responsive UI design, search functionality, filtering, and deployment using modern web development practices.
+
+---
+
+## Features
+
+- Responsive User Interface
+- Search Jobs by Title or Company
+- Filter by Location
+- Filter by Job Type
+- Job Detail Modal
+- Reusable React Components
+- GitHub Version Control
+- GitHub Actions CI Pipeline
+- Live Deployment using Vercel
+
+---
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git
+- GitHub
+- GitHub Actions
+- Vercel
+
+---
+
+## Folder Structure
+
+```
+app/
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── SearchBar.tsx
+│   ├── FilterBar.tsx
+│   ├── JobCard.tsx
+│   ├── JobModal.tsx
+│   └── Footer.tsx
+│
+├── data/
+│   └── jobs.ts
+│
+├── types/
+│   └── job.ts
+│
+├── page.tsx
+├── layout.tsx
+└── globals.css
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/kukijoshi/job-board-assessment.git
+```
+
+Move into the project directory
+
+```bash
+cd job-board-assessment
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## CI/CD Pipeline
 
-To learn more about Next.js, take a look at the following resources:
+The project uses GitHub Actions for Continuous Integration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Whenever code is pushed to the main branch:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Project dependencies are installed
+- Project build is verified automatically
+- Code is validated before deployment
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application is deployed on Vercel.
+
+Every push to the GitHub repository automatically triggers a new deployment through the CI/CD workflow.
+
+---
+
+## Future Enhancements
+
+- User Authentication
+- Job Posting Form
+- Save Favorite Jobs
+- Dark Mode
+- Pagination
+- Backend Integration
+- Database Connectivity
+
+---
+
+## Author
+
+**Prerna Raju Joshi**
+
+GitHub
+
+https://github.com/kukijoshi
