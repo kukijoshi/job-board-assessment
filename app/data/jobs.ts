@@ -1,0 +1,40 @@
+import { Job } from "../types/job";
+
+export const jobs: Job[] = [
+  {
+    id: 1,
+    title: "Java Developer",
+    company: "Infosys",
+    location: "Pune",
+    salary: "₹8 LPA",
+    type: "Full Time",
+    featured: true,
+    description: "Develop enterprise Java applications using Spring Boot.",
+    skills: ["Java", "Spring Boot", "MySQL"],
+    experience: "0-2 Years",
+  },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    company: "Google",
+    location: "Bangalore",
+    salary: "₹18 LPA",
+    type: "Remote",
+    featured: true,
+    description: "Develop modern web applications using React and Next.js.",
+    skills: ["React", "Next.js", "TypeScript"],
+    experience: "1-3 Years",
+  },
+  {
+    id: 3,
+    title: "Python Developer",
+    company: "Amazon",
+    location: "Hyderabad",
+    salary: "₹15 LPA",
+    type: "Hybrid",
+    featured: false,
+    description: "Develop backend APIs using Python and FastAPI.",
+    skills: ["Python", "FastAPI", "PostgreSQL"],
+    experience: "1-2 Years",
+  },
+];
